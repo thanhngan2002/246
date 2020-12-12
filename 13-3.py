@@ -11,7 +11,6 @@ y = ''
 z = 0
 n = random.randint(1024**2,1024**3)
 while n > 1024*1000:
-    n = n - 1024*1000
     
     while sys.getsizeof(y)<=1024*1000:
         x = random.choice(string.ascii_letters)
