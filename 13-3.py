@@ -15,6 +15,7 @@ while n > 1024*1000:
     while sys.getsizeof(y)<=1024*1000:
         x = random.choice(string.ascii_letters)
         y = y + x
+      y = y [:-1]
     t = "C:\\tên thư mục\\tên tập tin" + str(z) + ".txt"
     with open(t,'w', encoding = 'utf-8') as f:
         f.write(y)
