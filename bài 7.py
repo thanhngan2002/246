@@ -21,4 +21,3 @@ while i<n:
         min=list1[i]
     i+=1
 print("giá trị nhỏ nhất là:",min)
-print("kết thúc chương trình")
